@@ -11,25 +11,27 @@
 <body>
   <header>
     <h1>Il mio viaggio a Londra</h1>
-    <img src="img/pexels-bill-emrich-230794-0.jpg" alt="" srcset="">
-    <img src="img/pexels-bill-emrich-230794-1.jpg" alt="" srcset="">
-    <img src="img/pexels-bill-emrich-230794-2.jpg" alt="" srcset="">
+    <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London Eye 1" srcset="">
+    <img src="img/pexels-bill-emrich-230794-1.jpg" alt="London Eye 2" srcset="">
+    <img src="img/pexels-bill-emrich-230794-2.jpg" alt="London Eye 3" srcset="">
     <hr>
   </header>
   <main>
-    <div class="leMieSpese">
+    <section class="leMieSpese">
       <h2>Le mie spese</h2>
       <table>
         <thead>
-          <td>
-            <strong>Numero</strong>
-          </td>
-          <td>
-            <strong>Descrizione</strong>
-          </td>
-          <td>
-            <strong>Costo</strong>
-          </td>
+          <tr>
+            <th>
+              <strong>Numero</strong>
+            </th>
+            <th>
+              <strong>Descrizione</strong>
+            </th>
+            <th>
+              <strong>Costo</strong>
+            </th>
+          </tr>
         </thead>
         <tbody>
           <tr>
@@ -40,7 +42,8 @@
               Biglietto Aereo
             </td>
             <td>
-              120€
+              120&euro;
+              <!-- si preferisce usare le HTML entities per un discorso di compatibilità con browser più datati  -->
             </td>
           </tr>
           <tr>
@@ -51,7 +54,7 @@
               Biglietto Aereo
             </td>
             <td>
-              120€
+              120&euro;
             </td>
           </tr>
           <tr>
@@ -62,7 +65,7 @@
               Biglietto Aereo
             </td>
             <td>
-              120€
+              120&euro;
             </td>
           </tr>
 
@@ -71,11 +74,11 @@
           <tr>
             <td colspan="2">Totale</td>
             <!-- <td></td> -->
-            <td>360€</td>
+            <td>360&euro;</td>
           </tr>
         </tfoot>
       </table>
-    </div>
+    </section>
     <hr>
     <div class="coseDaFare">
       <h3>Cose da fare</h3>
